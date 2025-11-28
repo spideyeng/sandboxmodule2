@@ -1,0 +1,12 @@
+version: 1
+default_environment: dev
+project_id: e069bfc0-9591-4d88-b45a-bcafaa796db4
+environments:
+- name: dev
+- name: staging
+- name: prod
+plugins:
+  extractors:
+  - name: tap-csv
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/tap-csv.git

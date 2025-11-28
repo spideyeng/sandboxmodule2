@@ -10,3 +10,6 @@ plugins:
   - name: tap-csv
     variant: meltanolabs
     pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
+    config:
+      add_metadata_columns: true
+      csv_files_definition: e

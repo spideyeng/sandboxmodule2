@@ -33,10 +33,10 @@ Using Python:
  ![alt text](images/image.png)
 
 ## Useful References
-# 1. Details of Brazil Olist → https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-# 2. Meltano tap-csv extractor → https://hub.meltano.com/extractors/tap-csv/
-# 3. Thomas' Meltano cheatsheet → https://github.com/mlnotes2718/Data-Eng-Notes/blob/a200aa5d94794f8668e0e037a6f62435df3797e2/Meltano%20Cheatsheet.md
-# 4. Kaggle API → https://github.com/Kaggle/kaggle-api
+### 1. Details of Brazil Olist → https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+### 2. Meltano tap-csv extractor → https://hub.meltano.com/extractors/tap-csv/
+### 3. Thomas' Meltano cheatsheet → https://github.com/mlnotes2718/Data-Eng-Notes/blob/a200aa5d94794f8668e0e037a6f62435df3797e2/Meltano%20Cheatsheet.md
+### 4. Kaggle API → https://github.com/Kaggle/kaggle-api
 
 ## Sample Implementations
 

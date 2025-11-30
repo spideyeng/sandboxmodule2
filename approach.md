@@ -1,21 +1,35 @@
 # Approach to Handle Module 2 Group Project
 
-## Updated as of Fri 28 Nov 2025
+## Updated as of  1 Dec 2025
 
-## Plan A:
+## Considerations: 
+### Plan A:
 1. Use meltano to ingest/extract data from csv files to load to Google BigQuery
 2. Use dbt to transform data to be loaded to Google BigQuery
 
-## Plan B:
+### Plan B:
 1. Use Google BigQuery to ingest/extract data from cvs files
 2. Use dbt to transform data to be loaded to Google BigQuery
 
-## Plan C:
+### Plan C:
 1. Load data source: cvs files to DuckDB
 2. Extract load from DuckDB using Meltano to Google BigQuery
 3. Use dbt to transform data in Google BigQuery
 
- ## Schema 
+## *Plan That Works*
+1. Use Kaggle API to extract csv files 
+Using Python:
+2. Extract cvs files as DataFrames iteratively
+3. Load DataFrames to Google BigQuery
+
+## Please refer to [extractfromkaggle notebook](notebook/extractfromkaggle.ipynb) for more information.
+
+
+
+![alt text](images/BQscreenshot.png)
+
+
+## Schema 
  ![alt text](images/image.png)
 
 ## Useful References
